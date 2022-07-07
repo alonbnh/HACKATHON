@@ -1,0 +1,88 @@
+*{
+	margin:  0;
+	padding: 0;
+}
+
+body {
+	background: linear-gradient(yellow,black);
+	font-family: sans-serif;
+ 	min-height: 100vh;
+ 	padding: 150 px 0;
+ 	box-sizing: border-box;
+}
+
+.newsletter{
+	background: black;
+	margin: 0 auto;
+	text-align: center;
+	max-width: 330px;
+	padding: 50px 30px;
+	border-radius: 5px;
+	color: yellow;
+	box-shadow: 10px 10px 5px yellow;
+
+}
+
+.newsletter hr{
+	width: 70px;
+	height:  3px;
+	margin: 30 px auto;
+	border: 0;
+	background: rgba(255,255,255,0.5);
+}
+
+.newsletter p {
+	font-size: 16px;
+	line-height: 24px;
+	color: rgba(255,255,255,0.8);
+	margin-bottom: 30px ;
+}
+
+.newsletter input{
+	border-radius: 3px;
+	background-color: rgba(0, 0, 0, 0.4);
+	width: 100%;
+	height: 55px;
+	border: 0px;
+	padding: 0 20px;
+	color: rgba(255,255,255,0.8);
+	margin-bottom: 36 px;
+	outline: none;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+::placeholder{
+	color: rgba(255,255,255,0.8);
+}
+
+.newsletter button {
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-radius: 3px;
+	height: 50px;
+	background-color: transparent;
+	color: rgba(255, 255, 255, 1);
+	padding: 0px 28 px;
+	cursor: pointer;
+	transition: 0.5s;
+	font-size: 16px;
+}
+
+.newsletter button:hover{
+	background-color: yellow;
+	border-color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
